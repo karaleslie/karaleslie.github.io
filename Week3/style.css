@@ -1,0 +1,30 @@
+body {
+	background-image: url("Images/background.jpg");
+	background-size: cover;
+	margin: 0;
+}
+
+.header-bar {
+	background-image: url("Images/stripes.png");
+	background-repeat: repeat-x;
+	height: 13px;
+	padding: 120px;	
+}
+#taasky-logo {
+    height: 44px;
+    width: 147px;
+    padding: 0px;
+}
+.content { 
+margin-left: 150px;
+}
+hr {
+	width: 40px;
+	margin-left: 0px;
+	border-color: #FF6666;
+
+}
+p {
+	font-family: helvetica;
+	color: white;
+}
