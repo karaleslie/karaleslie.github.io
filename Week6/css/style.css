@@ -1,0 +1,116 @@
+body {
+	font-family: 'Roboto'; sans-serif;
+	background-color: #97694F;
+}
+
+#NativeLogo {
+	width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#Austin1 {
+	vertical-align: middle;
+	margin-top: 3%;
+	margin-left: 20%;
+}
+
+header {
+	background-color: #33CCCC;
+	border-bottom: 30px solid black;
+}
+
+nav {
+	font-size: 25px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	margin: 40px;
+	color: #000000;
+	border-bottom: 3px solid black;
+}
+a:hover {
+	background-color: #FFFFFF;
+}
+
+section {
+	display: inline-block;
+    width: 85%;
+
+}
+
+.city {
+	width: 200px;
+	height: 100px;
+	background: #BDA0CB;
+	text-align: center;
+	float: right;
+    line-height: 90px;
+    margin: 2%;
+}
+
+
+.city h2 { 
+   vertical-align: middle;
+   font-weight: bold;
+}
+
+.column {
+	float: left;
+	width: 200px;
+  	height: 100px;
+	padding: 20px;
+	margin-left: 180px;
+	list-style-type: square inside url("sqpurple.gif")
+}
+
+h3 {
+	margin-left: 180px;
+}
+
+#resourcesleft a {
+	text-decoration: none;
+	color: #000000;
+	margin: 10px;
+}
+
+#resourcesleft ul {
+	list-style: square inside url("sqpurple.gif");
+}
+
+#resourcesright a {
+	text-decoration: none;
+	color: #000000;	
+	margin: 10px;
+}
+
+#resourcesright ul {
+	list-style: square inside url("sqpurple.gif"); ;
+}
+
+footer {
+	clear: both;
+	margin-top: 25px;
+	border-top: 30px solid black;
+	padding: 25px;
+}
+
+h3 {
+	font-size: 2em;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
