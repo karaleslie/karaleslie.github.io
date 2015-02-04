@@ -1,15 +1,15 @@
 body {
 	font-family: 'Roboto'; sans-serif;
-	background-color: #97694F;
+	background-color: #E9C2A6;
 }
 
 #NativeLogo {
-	width: 25%;
-    margin: 0 auto;
+	width: 20%;
+    margin-left: 20px;
     padding: 20px;
 }
 
-#Austin1 {
+.Austin1 {
 	vertical-align: middle;
 	margin-top: 3%;
 	margin-left: 20%;
@@ -23,7 +23,7 @@ header {
 nav {
 	font-size: 25px;
 	float: right;
-	margin-right: 10px;
+	margin-right: 100px;
 	margin-top: 20px;
 }
 
@@ -44,14 +44,78 @@ section {
 
 }
 
+#banner {
+	width: 800px;
+	height: 535px;
+	position: relative;
+}
+
+#banner ul{
+	width: 800px;
+	height: 535px;
+	list-style: none outside none;
+	position: relative;
+	overflow: hidden;
+}
+
+#banner li:first-child {
+	display: list-item;
+	position: absolute;
+}
+
+#banner li{
+	position: absolute;
+	display: none;
+}
+
+#banner .prevButton{
+	height: 72px;
+	width: 68px;
+	position: absolute;
+	background: url(http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-black-3d-buttons-icons-arrows/007731-glossy-black-3d-button-icon-arrows-arrow-thick-right.png) no-repeat;
+	top: 50%;
+	margin-top: -36px;
+	cursor: pointer;
+	z-index: 2000;
+	background-position: left top;
+	left: 0;
+}
+
+#banner .prevButton:hover{
+	background-position: left bottom; left: 0;
+}
+
+#banner .nextButton{
+	height: 72px;
+	width: 68px;
+	position: absolute;
+	background: url(http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-black-3d-buttons-icons-arrows/007731-glossy-black-3d-button-icon-arrows-arrow-thick-right.png) no-repeat;
+    top: 50%;
+	margin-top: -36px;
+	cursor: pointer;
+	z-index: 2000;
+	background-position: right top;
+	right: 0;
+}
+
+#banner .nextButton:hover{
+	background-position: left bottom; left: 0;
+}
+
 .city {
 	width: 200px;
 	height: 100px;
-	background: #BDA0CB;
+	background: #000000;
+	color: #FFFFFF;
 	text-align: center;
 	float: right;
     line-height: 90px;
     margin: 2%;
+    border: 3px solid black;
+}
+
+.city:hover {
+	background-color: #97694F;
 }
 
 
@@ -81,6 +145,7 @@ h3 {
 
 #resourcesleft ul {
 	list-style: square inside url("sqpurple.gif");
+	: 3px;
 }
 
 #resourcesright a {
@@ -90,7 +155,7 @@ h3 {
 }
 
 #resourcesright ul {
-	list-style: square inside url("sqpurple.gif"); ;
+	list-style: square inside url("sqpurple.gif");
 }
 
 footer {
